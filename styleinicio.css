@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  background-color: #e0ce57;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  width: auto;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #5DADE2;
+  color: rgb(29, 28, 26);
+  border-radius: 10px color #862323;
+
+}
+
+a {
+
+  text-decoration: none;
+
+}
+
+a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(18, 18, 15);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.listaejercicios__ejercicios {
+  background-color: #82E0AA;
+  border-radius: 10px;
+  padding: 10px;
+  border: 3px solid #574b3b;
+
+
+
+
+}
+
+section {
+  gap: 10px;
+  padding: 20px;
+  width: auto;
+  margin: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+  gap: 30px;
+}
